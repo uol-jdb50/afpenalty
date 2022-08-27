@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import assetto.afpenalty.service.LoginService;
+import assetto.afpenalty.web.service.LoginService;
 
 @Controller
 @SessionAttributes("name")
