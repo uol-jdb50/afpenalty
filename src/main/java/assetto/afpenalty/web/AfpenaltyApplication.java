@@ -1,10 +1,10 @@
-package assetto.afpenalty;
+package assetto.afpenalty.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@ComponentScan("assetto.afpenalty")
+@ComponentScan("assetto.afpenalty.web")
 public class AfpenaltyApplication {
 
 	public static void main(String[] args) {

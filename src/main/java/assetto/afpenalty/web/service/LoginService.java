@@ -1,4 +1,4 @@
-package assetto.afpenalty.service;
+package assetto.afpenalty.web.service;
 
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
