@@ -17,6 +17,15 @@ public class LoginController {
     @Autowired
     LoginService service;
 
+    @RequestMapping(value="/")
+    public String rootRedirect(ModelMap model) {
+        if (model.getAttribute("name") == null) {
+            return "redirect:/login";
+        } else {
+            return "welcome";
+        }
+    }
+
     @RequestMapping(value="/login", method = RequestMethod.GET)
     public String showLoginPage(ModelMap model){
         return "login";
